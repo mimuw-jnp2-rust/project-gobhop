@@ -1,24 +1,22 @@
-# Frobnicator (this is a template)
+# GobHop
 
 ## Authors
-- Andrzej Głuszak (@agluszak on GitHub)
-- Linus Torvalds (@torvalds on GitHub)
+- Jan Ossowski (@janossowski on GitHub)
 
 ## Description
-Frobnicator is going to be a platformer game similar to Super Mario Bros made using Bevy game engine.
+GobHop is a platformer game where the player controls a goblin in a vertical tunnel. The goal is to make it as high as possible by jumping on platforms and using rockets to launch the goblin further. If the goblin falls, the game ends.
 
 ## Features
-- map generator
-- shooting
-- enemy AI
-- game state saving and loading
-- scores
+- controls, including walking left and right on a platform, regular jump and rocket jump (higher than regular, but consumes a container of rocket fuel)
+- randomly generated platforms and rocket fuel containers
+- score based on how high you managed to get
+- combo score multipliers for advancing many floors in a quick succession
+- high scores screen
 
 ## Plan
-In the first part we're going to implement the basics: movement, physics and shooting. The enemies will simply bounce from one edge of the platform to the other. There will be only a single map.
+First I'd like to create the base functionalities of the game. This includes the controls and platform generation. At this point the graphics may still be placeholders.
 
-In the second part we're going to add random map generator, saving/loading, scores and a more sophisticated AI.
+Then, I'd like to add the remaining features, which include scores, combos, recording high scores and possibly some additional ones (such as different platform types and powerups).
 
 ## Libraries
 - Bevy
-- Serde (for serialization)
