@@ -16,7 +16,7 @@ GobHop is a platformer game where the player controls a goblin in a vertical tun
 ## Plan
 First I'd like to create the base functionalities of the game. This includes the controls and platform generation. At this point the graphics may still be placeholders.
 
-Then, I'd like to add the remaining features, which include scores, combos, recording high scores and possibly some additional ones (such as different platform types and powerups).
+Then, I'd like to add the remaining features, which include scores, combos, recording high scores and possibly some additional ones (such as different platform types, powerups and local multiplayer), depending on how the game feels to play.
 
 ## Libraries
 - Bevy
